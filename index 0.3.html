@@ -1,0 +1,3262 @@
+<html>
+ <head>
+  <style>
+   body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 30px;
+  background: url("data:image/png;base64,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") no-repeat top right fixed;
+  background-size: 160px;
+  background-color: #fefefe;
+  color: #2a2a2a;
+}
+h1 {
+  font-size: 34px;
+  color: #005a9c;
+  text-align: center;
+  border-bottom: 3px solid #005a9c;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+h2 {
+  font-size: 22px;
+  margin-top: 40px;
+  color: #004a84;
+}
+.recipe-block {
+  border: 1px solid #ddd;
+  padding: 25px;
+  margin: 30px 0;
+  background-color: #ffffffcc;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+pre {
+  background-color: #f9f9f9;
+  padding: 18px;
+  white-space: pre-wrap;
+  border-left: 5px solid #005a9c;
+  border-radius: 4px;
+  font-size: 15px;
+}
+a {
+  text-decoration: none;
+  color: #005a9c;
+}
+.index-link {
+  display: block;
+  margin: 4px 0;
+}
+#searchBox {
+  width: 100%;
+  padding: 12px;
+  margin: 20px 0;
+  font-size: 17px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+}
+#google_translate_element {
+  text-align: right;
+  margin-bottom: 20px;
+}
+.back-to-top {
+  text-align: right;
+  display: block;
+  margin-top: 10px;
+  font-size: 13px;
+}
+  </style>
+  <script>
+   function filterRecipes() {
+  var input = document.getElementById('searchBox').value.toLowerCase();
+  var recipes = document.getElementsByClassName('recipe-block');
+  for (var i = 0; i < recipes.length; i++) {
+    var text = recipes[i].innerText.toLowerCase();
+    recipes[i].style.display = text.includes(input) ? '' : 'none';
+  }
+}
+  </script>
+ </head>
+ <body>
+  <script type="text/javascript">
+   function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'en',
+    includedLanguages: 'en,it,fr,de',
+    layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+  }, 'google_translate_element');
+}
+  </script>
+  <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" type="text/javascript">
+  </script>
+  <h1 id="top">
+   CAT360 Recipe Catalog – Emirates 2025/2026
+  </h1>
+  <div id="google_translate_element">
+  </div>
+  <input id="searchBox" onkeyup="filterRecipes()" placeholder="Search recipes..."/>
+  <h2>
+   Recipe Index by Category
+  </h2>
+  <a class="index-link" href="#1-litre)-|-dnata:020-cat:m25634-(salse-and-condimenti">
+   1 Litre) | DNATA:020 CAT:M25634 (Salse &amp; Condimenti
+  </a>
+  <a class="index-link" href="#altre-preparazioni">
+   Altre Preparazioni
+  </a>
+  <a class="index-link" href="#antipasti">
+   Antipasti
+  </a>
+  <a class="index-link" href="#blanched)-|-dnata:068-cat:m21244-(contorni-di-verdura">
+   Blanched) | DNATA:068 CAT:M21244 (Contorni di Verdura
+  </a>
+  <a class="index-link" href="#contorni-di-verdura">
+   Contorni di Verdura
+  </a>
+  <a class="index-link" href="#only-skin)-|-dnata:099-cat:m08719-(altre-preparazioni">
+   Only Skin) | DNATA:099 CAT:M08719 (Altre Preparazioni
+  </a>
+  <a class="index-link" href="#pane,-polenta-and-basi">
+   Pane, Polenta &amp; Basi
+  </a>
+  <a class="index-link" href="#primi-and-cereali">
+   Primi &amp; Cereali
+  </a>
+  <a class="index-link" href="#purè-and-creme">
+   Purè &amp; Creme
+  </a>
+  <a class="index-link" href="#salse-and-condimenti">
+   Salse &amp; Condimenti
+  </a>
+  <a class="index-link" href="#secondi-di-carne-and-pesce">
+   Secondi di Carne &amp; Pesce
+  </a>
+  <a class="index-link" href="#sous-vide)-|-dnata:080-cat:m25543-(secondi-di-carne-and-pesce">
+   Sous Vide) | DNATA:080 CAT:M25543 (Secondi di Carne &amp; Pesce
+  </a>
+  <a class="index-link" href="#uncategorized">
+   Uncategorized
+  </a>
+  <a class="index-link" href="#zuppe-and-vellutate">
+   Zuppe &amp; Vellutate
+  </a>
+  <h2 id="1-litre)-|-dnata:020-cat:m25634-(salse-and-condimenti">
+   1 Litre) | DNATA:020 CAT:M25634 (Salse &amp; Condimenti
+  </h2>
+  <div class="recipe-block">
+   <a id="recipe020_M25634">
+   </a>
+   <h2>
+    DNATA:020 CAT:M25634 — Tarragon Chicken Jus (1 Litre)
+   </h2>
+   <pre>CAT Code: M25634
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <h2 id="altre-preparazioni">
+   Altre Preparazioni
+  </h2>
+  <div class="recipe-block">
+   <a id="recipe113_M07498">
+   </a>
+   <h2>
+    DNATA:113 CAT:M07498 — Potato Confit
+   </h2>
+   <pre>CAT Code: M07498
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe043_M18596">
+   </a>
+   <h2>
+    DNATA:043 CAT:M18596 — Roasted Butternut Squash
+   </h2>
+   <pre>CAT Code: M18596
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe010_M19064">
+   </a>
+   <h2>
+    DNATA:010 CAT:M19064 — Crunchy Chickpeas
+   </h2>
+   <pre>CAT Code: M19064
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe047_M19892">
+   </a>
+   <h2>
+    DNATA:047 CAT:M19892 — Potato and Parmesan Souffle
+   </h2>
+   <pre>CAT Code: M19892
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe092_M19894">
+   </a>
+   <h2>
+    DNATA:092 CAT:M19894 — Crushed Pink Potatoes with Brown Butter &amp; Chives
+   </h2>
+   <pre>CAT Code: M19894
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe027_M20390">
+   </a>
+   <h2>
+    DNATA:027 CAT:M20390 — Green Lentil Ragout
+   </h2>
+   <pre>CAT Code: M20390
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe028_M20392">
+   </a>
+   <h2>
+    DNATA:028 CAT:M20392 — Turmeric Turned Potatoes
+   </h2>
+   <pre>CAT Code: M20392
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe025_M20959">
+   </a>
+   <h2>
+    DNATA:025 CAT:M20959 — Mushrooms Preparation /M20958
+   </h2>
+   <pre>CAT Code: M20959
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe034_M20980">
+   </a>
+   <h2>
+    DNATA:034 CAT:M20980 — Spiced Walnuts
+   </h2>
+   <pre>CAT Code: M20980
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe032_M20981">
+   </a>
+   <h2>
+    DNATA:032 CAT:M20981 — Fig Relish
+   </h2>
+   <pre>CAT Code: M20981
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe002_M21044">
+   </a>
+   <h2>
+    DNATA:002 CAT:M21044 — Compressed Apple Slices
+   </h2>
+   <pre>CAT Code: M21044
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe105_M21069">
+   </a>
+   <h2>
+    DNATA:105 CAT:M21069 — Maple Roasted Hazelnuts
+   </h2>
+   <pre>CAT Code: M21069
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe090_M21604">
+   </a>
+   <h2>
+    DNATA:090 CAT:M21604 — Roasted Cashew Nuts with Harissa Spice
+   </h2>
+   <pre>CAT Code: M21604
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe033_M25108">
+   </a>
+   <h2>
+    DNATA:033 CAT:M25108 — Gorgonzola Panna Cotta
+   </h2>
+   <pre>CAT Code: M25108
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe083_M25110">
+   </a>
+   <h2>
+    DNATA:083 CAT:M25110 — Cumin-Mint Tapioca Chips
+   </h2>
+   <pre>CAT Code: M25110
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <h2 id="antipasti">
+   Antipasti
+  </h2>
+  <div class="recipe-block">
+   <a id="recipe111_M08124">
+   </a>
+   <h2>
+    DNATA:111 CAT:M08124 — Salmon Rillettes
+   </h2>
+   <pre>CAT Code: M08124
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe005_M25794">
+   </a>
+   <h2>
+    DNATA:005 CAT:M25794 — Mustard Grain and Formaggio di Fossa Cheese Puff Pastry Crostini
+   </h2>
+   <pre>CAT Code: M25794
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <h2 id="blanched)-|-dnata:068-cat:m21244-(contorni-di-verdura">
+   Blanched) | DNATA:068 CAT:M21244 (Contorni di Verdura
+  </h2>
+  <div class="recipe-block">
+   <a id="recipe068_M21244">
+   </a>
+   <h2>
+    DNATA:068 CAT:M21244 — Curried Turmeric Fennel (Blanched)
+   </h2>
+   <pre>CAT Code: M21244
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <h2 id="contorni-di-verdura">
+   Contorni di Verdura
+  </h2>
+  <div class="recipe-block">
+   <a id="recipe084_M05368">
+   </a>
+   <h2>
+    DNATA:084 CAT:M05368 — Roasted Turnip
+   </h2>
+   <pre>CAT Code: M05368
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe072_M08165">
+   </a>
+   <h2>
+    DNATA:072 CAT:M08165 — Braised Leek
+   </h2>
+   <pre>CAT Code: M08165
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe014_M14160">
+   </a>
+   <h2>
+    DNATA:014 CAT:M14160 — Caramelized Celeriac Batons
+   </h2>
+   <pre>CAT Code: M14160
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe044_M14630">
+   </a>
+   <h2>
+    DNATA:044 CAT:M14630 — Roasted Aubergine
+   </h2>
+   <pre>CAT Code: M14630
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe098_M15326">
+   </a>
+   <h2>
+    DNATA:098 CAT:M15326 — Roasted Celeriac
+   </h2>
+   <pre>CAT Code: M15326
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe065_M16045">
+   </a>
+   <h2>
+    DNATA:065 CAT:M16045 — Roasted Golden Beetroot
+   </h2>
+   <pre>CAT Code: M16045
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe040_M18898">
+   </a>
+   <h2>
+    DNATA:040 CAT:M18898 — Crunchy Vegetables in Brine
+   </h2>
+   <pre>CAT Code: M18898
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe078_M19778">
+   </a>
+   <h2>
+    DNATA:078 CAT:M19778 — Buttered Baby Carrots
+   </h2>
+   <pre>CAT Code: M19778
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe049_M19893">
+   </a>
+   <h2>
+    DNATA:049 CAT:M19893 — Buttered Runner Beans with Shallots
+   </h2>
+   <pre>CAT Code: M19893
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe073_M19893">
+   </a>
+   <h2>
+    DNATA:073 CAT:M19893 — Buttered Runner Beans with Shallot
+   </h2>
+   <pre>CAT Code: M19893
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe030_M20391">
+   </a>
+   <h2>
+    DNATA:030 CAT:M20391 — Steamed Leek with Lemon Zest
+   </h2>
+   <pre>CAT Code: M20391
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe076_M25331">
+   </a>
+   <h2>
+    DNATA:076 CAT:M25331 — Courgette Fried Julienne
+   </h2>
+   <pre>CAT Code: M25331
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe008_M25632">
+   </a>
+   <h2>
+    DNATA:008 CAT:M25632 — Vegan Carrot Soufflé
+   </h2>
+   <pre>CAT Code: M25632
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe009_M25633">
+   </a>
+   <h2>
+    DNATA:009 CAT:M25633 — Harissa Baked Green Beans
+   </h2>
+   <pre>CAT Code: M25633
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe019_M25635">
+   </a>
+   <h2>
+    DNATA:019 CAT:M25635 — Bulgur with Sweet Potato, Kale, Mushrooms, and Carrots
+   </h2>
+   <pre>CAT Code: M25635
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe055_M25689">
+   </a>
+   <h2>
+    DNATA:055 CAT:M25689 — Carrot Fried Spaghetti
+   </h2>
+   <pre>CAT Code: M25689
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <h2 id="only-skin)-|-dnata:099-cat:m08719-(altre-preparazioni">
+   Only Skin) | DNATA:099 CAT:M08719 (Altre Preparazioni
+  </h2>
+  <div class="recipe-block">
+   <a id="recipe099_M08719">
+   </a>
+   <h2>
+    DNATA:099 CAT:M08719 — Fried Eggplant Julienne (Only Skin)
+   </h2>
+   <pre>CAT Code: M08719
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <h2 id="pane,-polenta-and-basi">
+   Pane, Polenta &amp; Basi
+  </h2>
+  <div class="recipe-block">
+   <a id="recipe100_M04473">
+   </a>
+   <h2>
+    DNATA:100 CAT:M04473 — Pan-Fried Rosemary Polenta
+   </h2>
+   <pre>CAT Code: M04473
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe052_M20867">
+   </a>
+   <h2>
+    DNATA:052 CAT:M20867 — Pan-Fried Polenta
+   </h2>
+   <pre>CAT Code: M20867
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe082_M25110">
+   </a>
+   <h2>
+    DNATA:082 CAT:M25110 — Lavash Cracker Bread with Mint and Cumin
+   </h2>
+   <pre>CAT Code: M25110
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe063_M25694">
+   </a>
+   <h2>
+    DNATA:063 CAT:M25694 — Herb Pancake Julienne
+   </h2>
+   <pre>CAT Code: M25694
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <h2 id="primi-and-cereali">
+   Primi &amp; Cereali
+  </h2>
+  <div class="recipe-block">
+   <a id="recipe075_M06675">
+   </a>
+   <h2>
+    DNATA:075 CAT:M06675 — Vegan Courgette Risotto
+   </h2>
+   <pre>CAT Code: M06675
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe115_M10414">
+   </a>
+   <h2>
+    DNATA:115 CAT:M10414 — Jeera Rice
+   </h2>
+   <pre>CAT Code: M10414
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe021_M16883">
+   </a>
+   <h2>
+    DNATA:021 CAT:M16883 — Rice Machbous
+   </h2>
+   <pre>CAT Code: M16883
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe039_M18898">
+   </a>
+   <h2>
+    DNATA:039 CAT:M18898 — Curried Couscous
+   </h2>
+   <pre>CAT Code: M18898
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe023_M19927">
+   </a>
+   <h2>
+    DNATA:023 CAT:M19927 — Vegan Barley Risotto with Mushrooms
+   </h2>
+   <pre>CAT Code: M19927
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe024_M19927">
+   </a>
+   <h2>
+    DNATA:024 CAT:M19927 — Barley Risotto
+   </h2>
+   <pre>CAT Code: M19927
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe097_M25596">
+   </a>
+   <h2>
+    DNATA:097 CAT:M25596 — Asparagus Spelt Risotto
+   </h2>
+   <pre>CAT Code: M25596
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe053_M25639">
+   </a>
+   <h2>
+    DNATA:053 CAT:M25639 — Saffron Risotto
+   </h2>
+   <pre>CAT Code: M25639
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <h2 id="purè-and-creme">
+   Purè &amp; Creme
+  </h2>
+  <div class="recipe-block">
+   <a id="recipe069_M03441">
+   </a>
+   <h2>
+    DNATA:069 CAT:M03441 — Sweet Potato Mash
+   </h2>
+   <pre>CAT Code: M03441
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe088_M12522">
+   </a>
+   <h2>
+    DNATA:088 CAT:M12522 — Avocado Cream
+   </h2>
+   <pre>CAT Code: M12522
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe042_M13876">
+   </a>
+   <h2>
+    DNATA:042 CAT:M13876 — Butternut Squash Purée
+   </h2>
+   <pre>CAT Code: M13876
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe061_M17344">
+   </a>
+   <h2>
+    DNATA:061 CAT:M17344 — Avocado Mash
+   </h2>
+   <pre>CAT Code: M17344
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe106_M19667">
+   </a>
+   <h2>
+    DNATA:106 CAT:M19667 — Smashed Désirée Potatoes
+   </h2>
+   <pre>CAT Code: M19667
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe071_M19824">
+   </a>
+   <h2>
+    DNATA:071 CAT:M19824 — Mashed Potato with Carrots and Anise Seed
+   </h2>
+   <pre>CAT Code: M19824
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe018_M19864">
+   </a>
+   <h2>
+    DNATA:018 CAT:M19864 — Celeriac Mash
+   </h2>
+   <pre>CAT Code: M19864
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe003_M21013">
+   </a>
+   <h2>
+    DNATA:003 CAT:M21013 — Beetroot Purée
+   </h2>
+   <pre>CAT Code: M21013
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe093_M21495">
+   </a>
+   <h2>
+    DNATA:093 CAT:M21495 — Sautéed Kale with Fennel Purée
+   </h2>
+   <pre>CAT Code: M21495
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe089_M21603">
+   </a>
+   <h2>
+    DNATA:089 CAT:M21603 — Cashew with Saffron Cream
+   </h2>
+   <pre>CAT Code: M21603
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe041_M25194">
+   </a>
+   <h2>
+    DNATA:041 CAT:M25194 — Basil Cream -  for 10 Portions
+   </h2>
+   <pre>CAT Code: M25194
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe081_M25544">
+   </a>
+   <h2>
+    DNATA:081 CAT:M25544 — Courgette Coulis
+   </h2>
+   <pre>CAT Code: M25544
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe085_M25551">
+   </a>
+   <h2>
+    DNATA:085 CAT:M25551 — Cream Cheese with Pink Peppercorn
+   </h2>
+   <pre>CAT Code: M25551
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe051_M25688">
+   </a>
+   <h2>
+    DNATA:051 CAT:M25688 — Creamed Sunchoke
+   </h2>
+   <pre>CAT Code: M25688
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <h2 id="salse-and-condimenti">
+   Salse &amp; Condimenti
+  </h2>
+  <div class="recipe-block">
+   <a id="recipe066_M04242">
+   </a>
+   <h2>
+    DNATA:066 CAT:M04242 — Grain Mustard Dressing
+   </h2>
+   <pre>CAT Code: M04242
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe112_M04297">
+   </a>
+   <h2>
+    DNATA:112 CAT:M04297 — Lemon Olive Oil Vinaigrette
+   </h2>
+   <pre>CAT Code: M04297
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe107_M06990">
+   </a>
+   <h2>
+    DNATA:107 CAT:M06990 — Harra Sauce
+   </h2>
+   <pre>CAT Code: M06990
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe109_M08166">
+   </a>
+   <h2>
+    DNATA:109 CAT:M08166 — Sage and Roasted Onion Pesto
+   </h2>
+   <pre>CAT Code: M08166
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe056_M10712">
+   </a>
+   <h2>
+    DNATA:056 CAT:M10712 — Salmorillo Sauce
+   </h2>
+   <pre>CAT Code: M10712
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe059_M16563">
+   </a>
+   <h2>
+    DNATA:059 CAT:M16563 — Herb Oil Dressing
+   </h2>
+   <pre>CAT Code: M16563
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe022_M16883">
+   </a>
+   <h2>
+    DNATA:022 CAT:M16883 — Machbous Sauce
+   </h2>
+   <pre>CAT Code: M16883
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe060_M17346">
+   </a>
+   <h2>
+    DNATA:060 CAT:M17346 — Honey Ginger Dressing
+   </h2>
+   <pre>CAT Code: M17346
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe007_M18568">
+   </a>
+   <h2>
+    DNATA:007 CAT:M18568 — Honey Dill and Mustard Dressing
+   </h2>
+   <pre>CAT Code: M18568
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe077_M19825">
+   </a>
+   <h2>
+    DNATA:077 CAT:M19825 — Red Roasted Pepper Sauce
+   </h2>
+   <pre>CAT Code: M19825
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe104_M20905">
+   </a>
+   <h2>
+    DNATA:104 CAT:M20905 — Romesco Sauce
+   </h2>
+   <pre>CAT Code: M20905
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe067_M21245">
+   </a>
+   <h2>
+    DNATA:067 CAT:M21245 — Asian Soy Dressing
+   </h2>
+   <pre>CAT Code: M21245
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe035_M25115">
+   </a>
+   <h2>
+    DNATA:035 CAT:M25115 — Crab Meat with Marie Rose Sauce
+   </h2>
+   <pre>CAT Code: M25115
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe050_M25637">
+   </a>
+   <h2>
+    DNATA:050 CAT:M25637 — Chicken Sauce with Wasabi and Lemon
+   </h2>
+   <pre>CAT Code: M25637
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe054_M25640">
+   </a>
+   <h2>
+    DNATA:054 CAT:M25640 — Smoked Tofu and Parsley Pesto
+   </h2>
+   <pre>CAT Code: M25640
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe116_M25684">
+   </a>
+   <h2>
+    DNATA:116 CAT:M25684 — Coriander and Green Apple Juice Dressing
+   </h2>
+   <pre>CAT Code: M25684
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <h2 id="secondi-di-carne-and-pesce">
+   Secondi di Carne &amp; Pesce
+  </h2>
+  <div class="recipe-block">
+   <a id="recipe102_M03935">
+   </a>
+   <h2>
+    DNATA:102 CAT:M03935 — Sautéed Prawns
+   </h2>
+   <pre>CAT Code: M03935
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe026_M05921">
+   </a>
+   <h2>
+    DNATA:026 CAT:M05921 — Seared Monkfish
+   </h2>
+   <pre>CAT Code: M05921
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe015_M06236">
+   </a>
+   <h2>
+    DNATA:015 CAT:M06236 — Marinated Octopus
+   </h2>
+   <pre>CAT Code: M06236
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe114_M06979">
+   </a>
+   <h2>
+    DNATA:114 CAT:M06979 — Lamb Ragout Salounah
+   </h2>
+   <pre>CAT Code: M06979
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe108_M19898">
+   </a>
+   <h2>
+    DNATA:108 CAT:M19898 — Kingfish Harra
+   </h2>
+   <pre>CAT Code: M19898
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe074_M20620">
+   </a>
+   <h2>
+    DNATA:074 CAT:M20620 — Lamb Cutlet Machbous
+   </h2>
+   <pre>CAT Code: M20620
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe038_M25194">
+   </a>
+   <h2>
+    DNATA:038 CAT:M25194 — Whipped Salted Cod
+   </h2>
+   <pre>CAT Code: M25194
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe062_M25694">
+   </a>
+   <h2>
+    DNATA:062 CAT:M25694 — Braised and Shredded Beef
+   </h2>
+   <pre>CAT Code: M25694
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <h2 id="sous-vide)-|-dnata:080-cat:m25543-(secondi-di-carne-and-pesce">
+   Sous Vide) | DNATA:080 CAT:M25543 (Secondi di Carne &amp; Pesce
+  </h2>
+  <div class="recipe-block">
+   <a id="recipe080_M25543">
+   </a>
+   <h2>
+    DNATA:080 CAT:M25543 — Red Prawn Tartare (Sous Vide)
+   </h2>
+   <pre>CAT Code: M25543
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <h2 id="uncategorized">
+   Uncategorized
+  </h2>
+  <div class="recipe-block">
+   <a id="recipe001_M19064">
+   </a>
+   <h2>
+    DNATA:001 Crunchy Chickpeas
+   </h2>
+   <pre>CAT Code: M19064
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe002_M20980">
+   </a>
+   <h2>
+    DNATA:002 Spiced Walnuts
+   </h2>
+   <pre>CAT Code: M20980
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe003_M25110">
+   </a>
+   <h2>
+    DNATA:003 Cumin-Mint Tapioca Chips
+   </h2>
+   <pre>CAT Code: M25110
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe004_M21604">
+   </a>
+   <h2>
+    DNATA:004 Roasted Cashew Nuts with Harissa Spice
+   </h2>
+   <pre>CAT Code: M21604
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe005_M08719">
+   </a>
+   <h2>
+    DNATA:005 Fried Eggplant Julienne (Only Skin)
+   </h2>
+   <pre>CAT Code: M08719
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe006_M21069">
+   </a>
+   <h2>
+    DNATA:006 Maple Roasted Hazelnuts
+   </h2>
+   <pre>CAT Code: M21069
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe007_M21013">
+   </a>
+   <h2>
+    DNATA:007 Beetroot Purée
+   </h2>
+   <pre>CAT Code: M21013
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe008_M00788">
+   </a>
+   <h2>
+    DNATA:008 Sweet Red Pepper Coulis
+   </h2>
+   <pre>CAT Code: M00788
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe009_M00774">
+   </a>
+   <h2>
+    DNATA:009 Fresh Carrot Juice Coulis
+   </h2>
+   <pre>CAT Code: M00774
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe010_M19864">
+   </a>
+   <h2>
+    DNATA:010 Celeriac Mash
+   </h2>
+   <pre>CAT Code: M19864
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe011_M25194">
+   </a>
+   <h2>
+    DNATA:011 Basil Cream -  for 10 Portions
+   </h2>
+   <pre>CAT Code: M25194
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe012_M13876">
+   </a>
+   <h2>
+    DNATA:012 Butternut Squash Purée
+   </h2>
+   <pre>CAT Code: M13876
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe013_M25688">
+   </a>
+   <h2>
+    DNATA:013 Creamed Sunchoke
+   </h2>
+   <pre>CAT Code: M25688
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe014_M17344">
+   </a>
+   <h2>
+    DNATA:014 Avocado Mash
+   </h2>
+   <pre>CAT Code: M17344
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe015_M03441">
+   </a>
+   <h2>
+    DNATA:015 Sweet Potato Mash
+   </h2>
+   <pre>CAT Code: M03441
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe016_M19824">
+   </a>
+   <h2>
+    DNATA:016 Mashed Potato with Carrots and Anise Seed
+   </h2>
+   <pre>CAT Code: M19824
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe017_M25544">
+   </a>
+   <h2>
+    DNATA:017 Courgette Coulis
+   </h2>
+   <pre>CAT Code: M25544
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe018_M25551">
+   </a>
+   <h2>
+    DNATA:018 Cream Cheese with Pink Peppercorn
+   </h2>
+   <pre>CAT Code: M25551
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe019_M12522">
+   </a>
+   <h2>
+    DNATA:019 Avocado Cream
+   </h2>
+   <pre>CAT Code: M12522
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe020_M21603">
+   </a>
+   <h2>
+    DNATA:020 Cashew with Saffron Cream
+   </h2>
+   <pre>CAT Code: M21603
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe021_M14246">
+   </a>
+   <h2>
+    DNATA:021 Mushroom Consommé
+   </h2>
+   <pre>CAT Code: M14246
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe022_M14847">
+   </a>
+   <h2>
+    DNATA:022 Milk Onion Soup
+   </h2>
+   <pre>CAT Code: M14847
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe023_M25636">
+   </a>
+   <h2>
+    DNATA:023 Fish and Brown Mushroom Velouté
+   </h2>
+   <pre>CAT Code: M25636
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe024_M01192">
+   </a>
+   <h2>
+    DNATA:024 Beef Consommé
+   </h2>
+   <pre>CAT Code: M01192
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe025_M25185">
+   </a>
+   <h2>
+    DNATA:025 Kale Velouté
+   </h2>
+   <pre>CAT Code: M25185
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe026_M19066">
+   </a>
+   <h2>
+    DNATA:026 Creamy Green Pea Soup with Mint
+   </h2>
+   <pre>CAT Code: M19066
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe027_M00623">
+   </a>
+   <h2>
+    DNATA:027 Chicken Consommé
+   </h2>
+   <pre>CAT Code: M00623
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe028_M01989">
+   </a>
+   <h2>
+    DNATA:028 Creamy Carrot and Ginger Soup
+   </h2>
+   <pre>CAT Code: M01989
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe029_M25108">
+   </a>
+   <h2>
+    DNATA:029 Gorgonzola Panna Cotta
+   </h2>
+   <pre>CAT Code: M25108
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe030_M21044">
+   </a>
+   <h2>
+    DNATA:030 Compressed Apple Slices
+   </h2>
+   <pre>CAT Code: M21044
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe032_M25794">
+   </a>
+   <h2>
+    DNATA:032 Mustard Grain and Formaggio di Fossa Cheese Puff Pastry Crostini
+   </h2>
+   <pre>CAT Code: M25794
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe034_M08124">
+   </a>
+   <h2>
+    DNATA:034 Salmon Rillettes
+   </h2>
+   <pre>CAT Code: M08124
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe035_M20981">
+   </a>
+   <h2>
+    DNATA:035 Fig Relish
+   </h2>
+   <pre>CAT Code: M20981
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe036_M00984">
+   </a>
+   <h2>
+    DNATA:036 Coriander Oil
+   </h2>
+   <pre>CAT Code: M00984
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe037_M18568">
+   </a>
+   <h2>
+    DNATA:037 Honey Dill and Mustard Dressing
+   </h2>
+   <pre>CAT Code: M18568
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe038_M03133">
+   </a>
+   <h2>
+    DNATA:038 BBQ sauce for Beef Filet
+   </h2>
+   <pre>CAT Code: M03133
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe039_M25634">
+   </a>
+   <h2>
+    DNATA:039 Tarragon Chicken Jus (1 Litre)
+   </h2>
+   <pre>CAT Code: M25634
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe040_M16883">
+   </a>
+   <h2>
+    DNATA:040 Machbous Sauce
+   </h2>
+   <pre>CAT Code: M16883
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe041_M25115">
+   </a>
+   <h2>
+    DNATA:041 Crab Meat with Marie Rose Sauce
+   </h2>
+   <pre>CAT Code: M25115
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe042_M00273">
+   </a>
+   <h2>
+    DNATA:042 Green Peppercorn Cream Sauce
+   </h2>
+   <pre>CAT Code: M00273
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe043_M25637">
+   </a>
+   <h2>
+    DNATA:043 Chicken Sauce with Wasabi and Lemon
+   </h2>
+   <pre>CAT Code: M25637
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe044_M25640">
+   </a>
+   <h2>
+    DNATA:044 Smoked Tofu and Parsley Pesto
+   </h2>
+   <pre>CAT Code: M25640
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe045_M10712">
+   </a>
+   <h2>
+    DNATA:045 Salmorillo Sauce
+   </h2>
+   <pre>CAT Code: M10712
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe046_M16563">
+   </a>
+   <h2>
+    DNATA:046 Herb Oil Dressing
+   </h2>
+   <pre>CAT Code: M16563
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe047_M17346">
+   </a>
+   <h2>
+    DNATA:047 Honey Ginger Dressing
+   </h2>
+   <pre>CAT Code: M17346
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe048_M04242">
+   </a>
+   <h2>
+    DNATA:048 Grain Mustard Dressing
+   </h2>
+   <pre>CAT Code: M04242
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe049_M21245">
+   </a>
+   <h2>
+    DNATA:049 Asian Soy Dressing
+   </h2>
+   <pre>CAT Code: M21245
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe050_M00043">
+   </a>
+   <h2>
+    DNATA:050 Chicken Jus
+   </h2>
+   <pre>CAT Code: M00043
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe051_M19825">
+   </a>
+   <h2>
+    DNATA:051 Red Roasted Pepper Sauce
+   </h2>
+   <pre>CAT Code: M19825
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe052_M00010">
+   </a>
+   <h2>
+    DNATA:052 Creamy Morel Mushroom Sauce
+   </h2>
+   <pre>CAT Code: M00010
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe053_M00008">
+   </a>
+   <h2>
+    DNATA:053 Horseradish Chicken Jus
+   </h2>
+   <pre>CAT Code: M00008
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe054_M20905">
+   </a>
+   <h2>
+    DNATA:054 Romesco Sauce
+   </h2>
+   <pre>CAT Code: M20905
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe055_M06990">
+   </a>
+   <h2>
+    DNATA:055 Harra Sauce
+   </h2>
+   <pre>CAT Code: M06990
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe056_M08166">
+   </a>
+   <h2>
+    DNATA:056 Sage and Roasted Onion Pesto
+   </h2>
+   <pre>CAT Code: M08166
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe057_M04297">
+   </a>
+   <h2>
+    DNATA:057 Lemon Olive Oil Vinaigrette
+   </h2>
+   <pre>CAT Code: M04297
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe058_M25684">
+   </a>
+   <h2>
+    DNATA:058 Coriander and Green Apple Juice Dressing
+   </h2>
+   <pre>CAT Code: M25684
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe059_M01391">
+   </a>
+   <h2>
+    DNATA:059 Crushed Peas
+   </h2>
+   <pre>CAT Code: M01391
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe060_M20959">
+   </a>
+   <h2>
+    DNATA:060 Mushrooms Preparation /M20958
+   </h2>
+   <pre>CAT Code: M20959
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe061_M20390">
+   </a>
+   <h2>
+    DNATA:061 Green Lentil Ragout
+   </h2>
+   <pre>CAT Code: M20390
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe062_M02096">
+   </a>
+   <h2>
+    DNATA:062 Green Peas Sautéed with Onions
+   </h2>
+   <pre>CAT Code: M02096
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe063_M00050">
+   </a>
+   <h2>
+    DNATA:063 Potato Anna
+   </h2>
+   <pre>CAT Code: M00050
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe064_M19892">
+   </a>
+   <h2>
+    DNATA:064 Potato and Parmesan Souffle
+   </h2>
+   <pre>CAT Code: M19892
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe065_M18596">
+   </a>
+   <h2>
+    DNATA:065 Roasted Butternut Squash
+   </h2>
+   <pre>CAT Code: M18596
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe066_M21495">
+   </a>
+   <h2>
+    DNATA:066 Sautéed Kale with Fennel Purée
+   </h2>
+   <pre>CAT Code: M21495
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe067_M19667">
+   </a>
+   <h2>
+    DNATA:067 Smashed Désirée Potatoes
+   </h2>
+   <pre>CAT Code: M19667
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe068_M07498">
+   </a>
+   <h2>
+    DNATA:068 Potato Confit
+   </h2>
+   <pre>CAT Code: M07498
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe069_M19894">
+   </a>
+   <h2>
+    DNATA:069 Crushed Pink Potatoes with Brown Butter &amp; Chives
+   </h2>
+   <pre>CAT Code: M19894
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe070_M20392">
+   </a>
+   <h2>
+    DNATA:070 Turmeric Turned Potatoes
+   </h2>
+   <pre>CAT Code: M20392
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe071_M25632">
+   </a>
+   <h2>
+    DNATA:071 Vegan Carrot Soufflé
+   </h2>
+   <pre>CAT Code: M25632
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe072_M25633">
+   </a>
+   <h2>
+    DNATA:072 Harissa Baked Green Beans
+   </h2>
+   <pre>CAT Code: M25633
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe073_M14160">
+   </a>
+   <h2>
+    DNATA:073 Caramelized Celeriac Batons
+   </h2>
+   <pre>CAT Code: M14160
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe074_M25635">
+   </a>
+   <h2>
+    DNATA:074 Bulgur with Sweet Potato, Kale, Mushrooms, and Carrots
+   </h2>
+   <pre>CAT Code: M25635
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe075_M20391">
+   </a>
+   <h2>
+    DNATA:075 Steamed Leek with Lemon Zest
+   </h2>
+   <pre>CAT Code: M20391
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe076_M01443">
+   </a>
+   <h2>
+    DNATA:076 Vegetable Ratatouille
+   </h2>
+   <pre>CAT Code: M01443
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe077_M18898">
+   </a>
+   <h2>
+    DNATA:077 Crunchy Vegetables in Brine
+   </h2>
+   <pre>CAT Code: M18898
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe078_M14630">
+   </a>
+   <h2>
+    DNATA:078 Roasted Aubergine
+   </h2>
+   <pre>CAT Code: M14630
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe080_M02725">
+   </a>
+   <h2>
+    DNATA:080 Sautéed Green Courgettes
+   </h2>
+   <pre>CAT Code: M02725
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe081_M19893">
+   </a>
+   <h2>
+    DNATA:081 Buttered Runner Beans with Shallots
+   </h2>
+   <pre>CAT Code: M19893
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe082_M25689">
+   </a>
+   <h2>
+    DNATA:082 Carrot Fried Spaghetti
+   </h2>
+   <pre>CAT Code: M25689
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe083_M16045">
+   </a>
+   <h2>
+    DNATA:083 Roasted Golden Beetroot
+   </h2>
+   <pre>CAT Code: M16045
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe084_M21244">
+   </a>
+   <h2>
+    DNATA:084 Curried Turmeric Fennel (Blanched)
+   </h2>
+   <pre>CAT Code: M21244
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe085_M08165">
+   </a>
+   <h2>
+    DNATA:085 Braised Leek
+   </h2>
+   <pre>CAT Code: M08165
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe086_M19893">
+   </a>
+   <h2>
+    DNATA:086 Buttered Runner Beans with Shallot
+   </h2>
+   <pre>CAT Code: M19893
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe087_M25331">
+   </a>
+   <h2>
+    DNATA:087 Courgette Fried Julienne
+   </h2>
+   <pre>CAT Code: M25331
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe088_M19778">
+   </a>
+   <h2>
+    DNATA:088 Buttered Baby Carrots
+   </h2>
+   <pre>CAT Code: M19778
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe089_M01240">
+   </a>
+   <h2>
+    DNATA:089 Buttered Turnip Batons
+   </h2>
+   <pre>CAT Code: M01240
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe090_M05368">
+   </a>
+   <h2>
+    DNATA:090 Roasted Turnip
+   </h2>
+   <pre>CAT Code: M05368
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe091_M15326">
+   </a>
+   <h2>
+    DNATA:091 Roasted Celeriac
+   </h2>
+   <pre>CAT Code: M15326
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe092_M00176">
+   </a>
+   <h2>
+    DNATA:092 Grilled Baby Courgettes
+   </h2>
+   <pre>CAT Code: M00176
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe093_M06236">
+   </a>
+   <h2>
+    DNATA:093 Marinated Octopus
+   </h2>
+   <pre>CAT Code: M06236
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe094_M00248">
+   </a>
+   <h2>
+    DNATA:094 Roasted Chicken Breast
+   </h2>
+   <pre>CAT Code: M00248
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe095_M05921">
+   </a>
+   <h2>
+    DNATA:095 Seared Monkfish
+   </h2>
+   <pre>CAT Code: M05921
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe096_M25194">
+   </a>
+   <h2>
+    DNATA:096 Whipped Salted Cod
+   </h2>
+   <pre>CAT Code: M25194
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe097_M01450">
+   </a>
+   <h2>
+    DNATA:097 Pan-Fried Prawns
+   </h2>
+   <pre>CAT Code: M01450
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe098_M00252">
+   </a>
+   <h2>
+    DNATA:098 Pan-Fried Cod Fillet
+   </h2>
+   <pre>CAT Code: M00252
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe099_M25694">
+   </a>
+   <h2>
+    DNATA:099 Braised and Shredded Beef
+   </h2>
+   <pre>CAT Code: M25694
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe100_M20620">
+   </a>
+   <h2>
+    DNATA:100 Lamb Cutlet Machbous
+   </h2>
+   <pre>CAT Code: M20620
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe101_M25543">
+   </a>
+   <h2>
+    DNATA:101 Red Prawn Tartare (Sous Vide)
+   </h2>
+   <pre>CAT Code: M25543
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe102_M03935">
+   </a>
+   <h2>
+    DNATA:102 Sautéed Prawns
+   </h2>
+   <pre>CAT Code: M03935
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe103_M19898">
+   </a>
+   <h2>
+    DNATA:103 Kingfish Harra
+   </h2>
+   <pre>CAT Code: M19898
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe104_M06979">
+   </a>
+   <h2>
+    DNATA:104 Lamb Ragout Salounah
+   </h2>
+   <pre>CAT Code: M06979
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe105_M16883">
+   </a>
+   <h2>
+    DNATA:105 Rice Machbous
+   </h2>
+   <pre>CAT Code: M16883
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe106_M19927">
+   </a>
+   <h2>
+    DNATA:106 Vegan Barley Risotto with Mushrooms
+   </h2>
+   <pre>CAT Code: M19927
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe107_M19927">
+   </a>
+   <h2>
+    DNATA:107 Barley Risotto
+   </h2>
+   <pre>CAT Code: M19927
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe108_M18898">
+   </a>
+   <h2>
+    DNATA:108 Curried Couscous
+   </h2>
+   <pre>CAT Code: M18898
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe109_M25639">
+   </a>
+   <h2>
+    DNATA:109 Saffron Risotto
+   </h2>
+   <pre>CAT Code: M25639
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe110_M06675">
+   </a>
+   <h2>
+    DNATA:110 Vegan Courgette Risotto
+   </h2>
+   <pre>CAT Code: M06675
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe111_M02963">
+   </a>
+   <h2>
+    DNATA:111 Basmati Rice with Dill
+   </h2>
+   <pre>CAT Code: M02963
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe112_M25596">
+   </a>
+   <h2>
+    DNATA:112 Asparagus Spelt Risotto
+   </h2>
+   <pre>CAT Code: M25596
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe113_M10414">
+   </a>
+   <h2>
+    DNATA:113 Jeera Rice
+   </h2>
+   <pre>CAT Code: M10414
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe114_M15511">
+   </a>
+   <h2>
+    DNATA:114 Shell Pasta with Peas, Sweet Corn, and Fresh Tomato
+   </h2>
+   <pre>CAT Code: M15511
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe115_M20867">
+   </a>
+   <h2>
+    DNATA:115 Pan-Fried Polenta
+   </h2>
+   <pre>CAT Code: M20867
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe116_M25694">
+   </a>
+   <h2>
+    DNATA:116 Herb Pancake Julienne
+   </h2>
+   <pre>CAT Code: M25694
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <h2 id="zuppe-and-vellutate">
+   Zuppe &amp; Vellutate
+  </h2>
+  <div class="recipe-block">
+   <a id="recipe004_M14246">
+   </a>
+   <h2>
+    DNATA:004 CAT:M14246 — Mushroom Consommé
+   </h2>
+   <pre>CAT Code: M14246
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe006_M14847">
+   </a>
+   <h2>
+    DNATA:006 CAT:M14847 — Milk Onion Soup
+   </h2>
+   <pre>CAT Code: M14847
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe064_M19066">
+   </a>
+   <h2>
+    DNATA:064 CAT:M19066 — Creamy Green Pea Soup with Mint
+   </h2>
+   <pre>CAT Code: M19066
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe037_M25185">
+   </a>
+   <h2>
+    DNATA:037 CAT:M25185 — Kale Velouté
+   </h2>
+   <pre>CAT Code: M25185
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+  <div class="recipe-block">
+   <a id="recipe029_M25636">
+   </a>
+   <h2>
+    DNATA:029 CAT:M25636 — Fish and Brown Mushroom Velouté
+   </h2>
+   <pre>CAT Code: M25636
+
+[Recipe instructions not available in this summary.]
+
+(Questo spazio sarà riempito con i dettagli completi della ricetta.)</pre>
+   <a class="back-to-top" href="#top">
+    ↑ Back to top
+   </a>
+  </div>
+ </body>
+</html>
